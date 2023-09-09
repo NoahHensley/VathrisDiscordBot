@@ -6,7 +6,6 @@ from datetime import datetime, timedelta
 
 load_dotenv()
 
-print(getenv('TOKEN'))
 TOKEN = getenv('TOKEN')
 
 # Creating the Discord client
